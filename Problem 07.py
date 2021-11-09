@@ -4,12 +4,13 @@ if x>=1 and x<=100:
         a=input().split(' ')
         z=[]
         for i in a:
-            try:
-                int(i)
-                z.append(i)
-            except:
-                continue
+            if abs(int(i))<=10000000:
+                try:
+                    int(i)
+                    z.append(i)
+                except:
+                    continue
         
-        if len(z)>=1 and len(z)<=100 and sum(int(j) for j in z)<=10000000:
+        if len(z)>=1 and len(z)<=100:
             print(z)
             print(len(z))
