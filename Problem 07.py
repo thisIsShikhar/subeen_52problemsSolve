@@ -12,5 +12,4 @@ if x>=1 and x<=100:
                     continue
         
         if len(z)>=1 and len(z)<=100:
-            print(z)
             print(len(z))
