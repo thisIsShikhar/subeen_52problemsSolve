@@ -9,4 +9,6 @@ if x>=1 and x<=100:
         bowled = 300-ballrem
         currentrr= currun/(bowled/6)
         reqrr= ((oprun+1)-currun)/(ballrem/6)
-        print(f'{currentrr:.2f} {reqrr:.2f}')
+        
+        if oprun<=1000 and oprun>=1 and currun<=1000 and currun>=1 and ballrem<=300 and ballrem>=1:
+            print(f'{currentrr:.2f} {reqrr:.2f}')
