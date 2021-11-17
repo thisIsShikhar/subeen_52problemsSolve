@@ -1,5 +1,3 @@
-import string
-
 T = int(input())
 
 if 1 <= T <= 100:
