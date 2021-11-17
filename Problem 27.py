@@ -1,6 +1,6 @@
 T = int(input())
 
-if 1 <= T <= 1000:
+if 1 <= T <= 100:
     for i in range(T):
         n = int(input())
         if 100<=n<=999:
