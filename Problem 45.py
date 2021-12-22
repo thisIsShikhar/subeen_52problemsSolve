@@ -2,7 +2,7 @@ from math import factorial
 
 T = int(input())
 if T <= 100000:
-    for i in range(1, T + 1):
+    for x in range(1, T + 1):
 
         N = int(input())
         if N <= 50:
