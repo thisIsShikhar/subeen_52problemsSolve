@@ -6,7 +6,7 @@ if T <= 100000:
 
         N = int(input())
         if N <= 50:
-            for i in range(N):
+            for i in range(N+1):
                 for j in range(i + 1):
                     print(factorial(i) // (factorial(j) * factorial(i - j)), end=" ")
                 print()
