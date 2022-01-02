@@ -8,7 +8,4 @@ c=[]
 for i in z:
     print(i)
 
-    b=a.count(i)
-    c.append(b)
-print(c)
 
